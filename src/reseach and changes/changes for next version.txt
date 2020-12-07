@@ -1,0 +1,19 @@
+1:keep country data and currency data seperatate. Dont make the error of keeping the dutch and english
+name in seperate objects.
+
+2: clearance costs are dependent on if a country is a EU country or not. If a country is a EU
+country no clearance costs are included. Now the check if a country is an EU country is done
+by checking is taxrate and import duties rate is zero. This is not a nice solution. It would
+be better to include a region constant in the country object. Then a seperate regions object will
+contain taxrate,importdutues and clearence cost for the different regions
+
+3: Made an error in clearance cost. I thought that the different clearance costs where fixed
+for the different shipping services (ups,fedex etc). However UPS works with a percentage of 2.5%
+if the value of the ordered package, with a a minium of 10,50 euro.
+
+4: Make multiple model layers. So that not everything is put in model object. For example, put all
+database stuff in data input/output layer.
+
+5: next time use test driven development.
+
+6: nex time use bootstrap as a library not as a cdn.

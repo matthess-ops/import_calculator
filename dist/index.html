@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.78032849.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+
+    <title>Invoer calculator</title>
+  <script src="/style.78032849.js"></script></head>
+
+  <body>
+    <div class="container-lg p-0">
+      <nav class="navbar navbar-expand-lg navbar-light gray-1">
+        <a class="navbar-brand" href="#">Invoer Calculator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- middel -->
+      <div class="row dummyborder border-3 m-0">
+        <div class="col-md m-3 border border-3">
+          <div class="row">
+            <div class="col-6 dummyborder border-3"><label>Land</label></div>
+
+            <div class="col-6 dummyborder border-3">
+              <select id="country__select" class="form-control select2">
+                <!-- these are dummy countries these get overwritten on page load -->
+                <option>Nederland</option>
+                <option>Svalbard en Jan</option>
+                <option>China</option>
+                <option>Verenigde Staten</option>
+                <option>Belgie</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6 dummyborder border-3">
+              <label>Aankoop valuta</label>
+            </div>
+
+            <div class="col-6 dummyborder border-3">
+              <select id="currency__select" class="form-control select2">
+                <!-- dummy currencies these get overwritten on page load -->
+                <option>Euro</option>
+                <option>USD</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 dummyborder border-3">
+              <label>Bestel bedrag</label>
+            </div>
+            <div class="col-1 dummyborder border-3 pr-0">
+              <p class="float-right valuta-symbol__p">€</p>
+            </div>
+            <div class="col-6 dummyborder border-3">
+              <input id="order-amount__input" placeholder="--,--" type="number" min="1" step="any" class="form-control maxTextHeight">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 dummyborder border-3">
+              <label>Verzendkosten</label>
+            </div>
+            <div class="col-1 dummyborder border-3 pr-0">
+              <p class="float-right valuta-symbol__p">€</p>
+            </div>
+            <div class="col-6 dummyborder border-3">
+              <input id="shipping-costs__input" placeholder="--,--" type="number" class="form-control maxTextHeight">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col dummyborder border-3">
+              <label>Invoerrechten %</label>
+            </div>
+            <div class="col dummyborder border-3">
+              <input id="import-duty-percentage__input" type="number" value="4.2" class="form-control maxTextHeight">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col dummyborder border-3">
+              <label>BTW %</label>
+            </div>
+            <div class="col dummyborder border-3">
+              <input id="tax-percentage__input" type="number" value="21.0" class="form-control maxTextHeight">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 dummyborder border-3">
+              <label>Inklaringskosten</label>
+            </div>
+            <div class="col-1 dummyborder border-3 pr-0">
+              <p class="float-right">€</p>
+            </div>
+            <div class="col-3 dummyborder border-3 pr-0">
+              <input id="clearance-costs__input" type="number" value="12.00" class="form-control maxTextHeight">
+            </div>
+            <div class="col-3 dummyborder border-3 pl-0">
+              <div id="parent">
+                <select id="shipment-service__select" class="form-control select2">
+                  <!-- dummy shipper these get overwritten on page load -->
+                  <option>FEDEX</option>
+                  <option>USPS</option>
+                  <option>ALI</option>
+                  <option>POSTNL</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5 dummyborder border-3">
+              <label>Koers 1 € =</label>
+            </div>
+            <div class="col-1 dummyborder border-3 pr-0">
+              <p class="float-right valuta-symbol__p">€</p>
+            </div>
+            <div class="col-3 dummyborder border-3">
+              <p id="exchange-rate__p">1,234</p>
+            </div>
+
+            <div class="col-3 dummyborder border-3 pl-0">
+              <p id="date-today__p">datum</p>
+            </div>
+          </div>
+
+          <!-- linebreak -->
+          <hr>
+          <div class="row">
+            <p class="col-5 dummyborder border-3">Bestelbedrag</p>
+            <p class="col-1 dummyborder border-3 float-right pr-0 text-right">
+              €
+            </p>
+            <p id="total-order-amount__p" class="col-6 dummyborder border-3 font-weight-bold">
+              --,--
+            </p>
+          </div>
+
+          <div class="row">
+            <p class="col-5 dummyborder border-3">Invoerrechten</p>
+            <p class="col-1 dummyborder border-3 float-right pr-0 text-right">
+              €
+            </p>
+
+            <p id="import-duty-amount__p" class="col-6 dummyborder border-3 font-weight-bold">
+              --,--
+            </p>
+          </div>
+          <div class="row">
+            <p class="col-5 dummyborder border-3">BTW bedrag</p>
+            <p class="col-1 dummyborder border-3 float-right pr-0 text-right">
+              €
+            </p>
+
+            <p id="tax-amount__p" class="col-6 dummyborder border-3 font-weight-bold">
+              --,--
+            </p>
+          </div>
+
+          <div class="row">
+            <p class="col-5 dummyborder border-3">Bijkomend bedrag</p>
+            <p class="col-1 dummyborder border-3 float-right pr-0 text-right">
+              €
+            </p>
+
+            <p id="total-additional-amount__p" class="col-6 dummyborder border-3 font-weight-bold">
+              --,--
+            </p>
+          </div>
+
+          <div class="row">
+            <p class="col-5 dummyborder border-3">Totaalbedrag</p>
+            <p class="col-1 dummyborder border-3 float-right pr-0 text-right">
+              €
+            </p>
+
+            <p id="total-combined-amount__p" class="col-6 dummyborder border-3 font-weight-bold">
+              --,--
+            </p>
+          </div>
+          <!-- <div class="row"> -->
+
+          <!-- <button type="button" class="btn btn-secondary pb-100 ">Wissen</button> -->
+          <!-- </div> -->
+        </div>
+        <div class="col-md m-3 border border-3">
+          <p style="font-size: 0.8em">
+            Met de invoerkosten calculator kunt u op eenvoudige wijze de
+            invoerrechten (douanerechten), btw, inklaringskosten en andere
+            bijkomende kosten berekenen die vaak komen kijken bij het importeren
+            van producten vanuit het buitenland.
+          </p>
+          <p style="font-size: 0.8em">
+            <b>Bestelbedrag:</b><br> Tot €22,- worden er geen invoerrechten en BTW
+            gerekend, vanaf €22,- tot €150,- vrij van invoerrechten maar met
+            BTW. Vanaf € 150,- moet u altijd invoerrechten en BTW betalen. In de
+            meeste gevallen rekenen de postbezorgdiensten geen inklaringskosten
+            als het bestelbedrag van de te importeren goederen onder de €22,-
+            blijft.
+          </p>
+          <p style="font-size: 0.8em">
+            <b>Invoerrechten:</b><br> Standaard staat het invoerrechten percentage
+            van de calculator ingesteld op 4,2%, het tarief voor
+            optische/astronomische instrumenten (hobby van de auteur). Het
+            percentage kan aangepast worden naar een waarde die van toepassing
+            is op de goederen die u wilt invoeren. De actuele TARIC (Integrated
+            Tariff of the European Communities) invoerrechten kunt u vinden op
+            http://gebruikstarief.douane.nl. Let op: de invoerrechten kunnen
+            voor bepaalde producten hoog uitvallen. 
+          </p>
+          <p style="font-size: 0.8em">
+            <b>Inklaringskosten:</b><br> De inklaringskosten zijn de kosten die het
+            vervoersbedrijf rekent voor het afhandelen van de douane-inklaring.
+            Het gewicht en de omvang van de verzending kunnen de
+            inklaringskosten in sommige gevallen doen stijgen. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center gray-2 container-lg">© 2020 Copyright:</div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+    <script>$("select").select2({
+  dropdownAutoWidth: false
+});</script>
+    <script src="/controller.f22f2928.js"></script>
+  </body>
+</html>

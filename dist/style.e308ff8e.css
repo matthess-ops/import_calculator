@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+
+
+
+.select-styling{
+  border: 3px solid blue;
+
+}
+
+.options-hide{
+  display:none
+}
+
+.options-styling{
+  border: 3px solid green;
+
+}
+
+.test-styling{
+  background-color: greenyellow;
+}
+
+
+
+
+
+
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

@@ -1,0 +1,156 @@
+ Afghaanse Afhani (AFN)	&	90,4403
+ Algerijnse Dinar (DZD)	&	151,648
+ Angolese Kwanza (AOA)	&	766,577
+ Argentijnse Peso (ARS)	&	91,3076
+ Arubaanse florin (AWG)	&	2,11832
+ Azerbeidzjaanse manat (AZN)	&	2,00357
+ Bahreinse dinar (BHD)	&	0,443684
+ Belizaanse dollar (BZD)	&	2,3721
+ Bermudaanse dollar (BMD)	&	1,17684
+ Bitcoin (BTC)	&	0,000100151
+ Bosnische mark (BAM)	&	1,95609
+ Braziliaanse Real (BRL)	&	6,59832
+ Brunei dollar (BND)	&	1,59719
+ Burundese frank (BIF)	&	2277,27
+ Cambodjaanse riel (KHR)	&	4830,17
+ Centraal-Afrikaanse frank (XAF)	&	655,957
+ Chinese Yuan (CNY)	&	7,8639
+ Comorese frank (KMF)	&	494,509
+ Costa Ricaanse colon (CRC)	&	709,968
+ Cubaanse convertibele peso (CUC)	&	1,17714
+ Djiboutiaanse frank (DJF)	&	209,501
+ Egyptische Pond (EGP)	&	18,4774
+ Ethereum (ETH)	&	0,0031039
+ Euro (EUR)	&	1,00
+ Fiji-dollar (FJD)	&	2,5185
+ Gambiaanse dalasi (GMD)	&	60,9016
+ Ghanese cedi (GHS)	&	6,84451
+ Goud per troy ounce (XAU)	&	0,00061825
+ Guineese frank (GNF)	&	11525,8
+ Haïtiaanse gourde (HTG)	&	74,1397
+ Hongaarse Forint (HUF)	&	364,989
+ IJslandse Kroon (ISK)	&	163,593
+ Indonesische Rupia (IDR)	&	17303,4
+ Iraanse Rial (IRR)	&	49550,9
+ Jamaicaanse dollar (JMD)	&	171,428
+ Jemenitische rial (YER)	&	294,622
+ Kaaimaneilandse dollar (KYD)	&	0,980714
+ Kazachse tenge (KZT)	&	503,857
+ Kirgizische som (KGS)	&	95,6167
+ Koreaanse Won (KRW)	&	1341,55
+ Laotiaanse kip (LAK)	&	10877,1
+ Libanees pond (LBP)	&	1781,49
+ Libische dinar (LYD)	&	1,60833
+ Macause pataca (MOP)	&	9,3943
+ Malagassische ariary (MGA)	&	4624,41
+ Maldivische rufiyaa (MVR)	&	18,1234
+ Marokkaanse dirham (MAD)	&	10,8219
+ Mauritiaanse roepie (MUR)	&	46,9678
+ Moldavische leu (MDL)	&	19,9095
+ Myanmarese kyat (MMK)	&	1519,28
+ Nepalese roepie (NPR)	&	138,039
+ Nieuw-Zeelandse Dollar (NZD)	&	1,78386
+ Nigeriaanse Naira (NGN)	&	449,554
+ Noorse Kroon (NOK)	&	10,9848
+ Oekraiense Grivna (UAH)	&	33,3836
+ Omaanse rial (OMR)	&	0,453079
+ Pakistaanse Roepie (PKR)	&	191,223
+ Papoease kina (PGK)	&	4,11931
+ Poolse Zloty (PLN)	&	4,57217
+ Ripple (XRP)	&	4,75445
+ Russische Roebel (RUB)	&	91,3139
+ Salomon-dollar (SBD)	&	9,50988
+ Santomese dobra (STD)	&	24718,9
+ Servische Dinar (RSD)	&	117,602
+ Sierra Leoonse leone (SLL)	&	11727,2
+ Sint-Heleens pond (SHP)	&	0,908962
+ Somalische shilling (SOS)	&	682,914
+ Surinaamse dollar (SRD)	&	16,657
+ Syrisch pond (SYP)	&	603,056
+ Taiwanese Dollar (TWD)	&	33,826
+ Thaise Baht (THB)	&	36,721
+ Trinidad en Tobago dollar (TTD)	&	7,98693
+ Tunesische Dinar (TND)	&	3,24073
+ Uruguayaanse peso (UYU)	&	50,4934
+ Vanuatuaanse vatu (VUV)	&	1345,74
+ Vietnamese Dong (VND)	&	27272,8
+ Zilver (XAG)	&	0,0482382
+ Zweedse Kroon (SEK)	&	10,3923
+ Albanese Lek (ALL)	&	124,137
+ Amerikaanse Dollar (USD)	&	1,17684
+ Antilliaanse Gulden (ANG)	&	2,11245
+ Armeense Dram (AMD)	&	566,786
+ Australische Dollar (AUD)	&	1,66591
+ Bahamaanse dollar (BSD)	&	1,17684
+ Barbadiaanse dollar (BBD)	&	2,35368
+ Bengaalse taka (BDT)	&	99,7887
+ Bhutaanse ngultrum (BTN)	&	86,2747
+ Boliviaanse boliviano (BOB)	&	8,12595
+ Botswaanse pula (BWP)	&	13,4649
+ Britse Pond (GBP)	&	0,908962
+ Bulgaarse Lev (BGN)	&	1,95603
+ CFP-frank (XPF)	&	119,332
+ Canadese Dollar (CAD)	&	1,55223
+ Chileense Peso (CLP)	&	926,881
+ Colombiaanse Peso (COP)	&	4528,09
+ Congolese frank (CDF)	&	2308,85
+ Cubaanse Peso (CUP)	&	30,3037
+ Deense Kroon (DKK)	&	7,44163
+ Dominicaanse Peso (DOP)	&	68,7292
+ Eritrese nakfa (ERN)	&	17,6526
+ Ethiopische birr (ETB)	&	43,8516
+ Falklandeilands pond (FKP)	&	0,908962
+ Filipijnse Peso (PHP)	&	57,1426
+ Georgische lari (GEL)	&	3,8012
+ Gibraltarees pond (GIP)	&	0,908962
+ Guatemalaanse quetzal (GTQ)	&	9,15567
+ Guyaanse dollar (GYD)	&	246,058
+ Hondurese lempira (HNL)	&	28,8588
+ Hongkongse Dollar (HKD)	&	9,12059
+ Indiase Roepie (INR)	&	86,3688
+ Iraakse Dinar (IQD)	&	1403,12
+ Israelische Sjekel (ILS)	&	3,98381
+ Japanse Yen (JPY)	&	124,109
+ Jordaanse dinar (JOD)	&	0,834381
+ Kaapverdische escudo (CVE)	&	111,212
+ Keniaanse shilling (KES)	&	127,982
+ Koeweitse dinar (KWD)	&	0,360046
+ Kroatische Kuna (HRK)	&	7,58475
+ Lesothaanse loti (LSL)	&	19,4091
+ Liberiaanse dollar (LRD)	&	230,014
+ Litecoin (LTC)	&	0,0244615
+ Macedonische denar (MKD)	&	61,6211
+ Malawische kwacha (MWK)	&	888,297
+ Maleisische Ringgit (MYR)	&	4,88025
+ Mauritaanse ouguiya (MRO)	&	420,133
+ Mexicaanse Peso (MXN)	&	24,9479
+ Mongolische tugrik (MNT)	&	3339,84
+ Namibische dollar (NAD)	&	19,465
+ Nicaraguaanse Córdoba Oro (NIO)	&	40,956
+ Nieuwe Peruviaanse sol (PEN)	&	4,22151
+ Noord-Koreaanse won (KPW)	&	1059,16
+ Oegandese shilling (UGX)	&	4403,81
+ Oezbeekse sum (UZS)	&	12204,6
+ Oost-Caribische dollar (XCD)	&	3,18047
+ Panamese balboa (PAB)	&	1,17684
+ Paraguayaanse guaraní (PYG)	&	8268,39
+ Qatarese Rial (QAR)	&	4,28518
+ Roemeense Leu (RON)	&	4,87566
+ Rwandese frank (RWF)	&	1149,95
+ Samoaanse tala (WST)	&	3,08649
+ Saoedi-Arabische Riyal (SAR)	&	4,41472
+ Seychelse roepie (SCR)	&	21,5464
+ Singaporese Dollar (SGD)	&	1,59852
+ Soedanees pond (SDG)	&	65,05
+ Sri Lankaanse Roepie (LKR)	&	217,011
+ Swazische lilangeni (SZL)	&	19,3924
+ Tadzjiekse somoni (TJS)	&	12,145
+ Tanzaniaanse shilling (TZS)	&	2730,25
+ Tongaanse pa'anga (TOP)	&	2,7306
+ Tsjechische Kroon (CZK)	&	27,2615
+ Turkse Lira (TRY)	&	9,27112
+ VAE Dirham (AED)	&	4,32278
+ Venezolaanse bolivar (VEF)	&	292,431
+ Wit-Russische roebel (BYN)	&	3,0161
+ Zuid-Afrikaanse Rand (ZAR)	&	19,444
+ Zwitserse Frank (CHF)	&	1,07157

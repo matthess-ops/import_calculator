@@ -1,0 +1,26 @@
+main goal:
+
+Get some extra experience with localstorage and model/view/controller design pattern. And overall
+experience with javascript. Also make a responsive website that is user friendly by saving
+previouly used values. Therefore limiting the number of clicks the use has to perform
+next time.
+
+Problem:
+
+From experience all the dutch import calculators are not great. Most of the have all or several of
+the below problems.
+
+-only a few countries
+-only a few currencies
+-sites are not responsive
+-exchange rates are out of date
+-not user friendly by not saving certain input values, for example last used country/currency
+combination.
+-no possibility to change the currency for a country. For example in chinese webshops it is commmon
+that you pay in USD. However with the most dutch import calculators you cannot change the currency
+from chinese Renmimbi to United states dollar
+- set euro and usd as second and third option in list
+
+Secondary goal:
+
+Make a responsive website that fixes all the above stuff

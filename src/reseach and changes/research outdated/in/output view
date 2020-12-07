@@ -1,0 +1,21 @@
+inputs view
+country__select
+currency__select
+order-amount__input
+shipping-costs__input
+import-duty-percentage__input
+tax-percentage__input
+clearance-costs__input
+shipment-service__select
+
+
+ouput views
+
+exchange-rate__p
+date_today__p
+total-order-amount__p
+import-duty-amount__p
+tax-amount__p
+total-additional-amount__p
+total-combined-amount__p
+

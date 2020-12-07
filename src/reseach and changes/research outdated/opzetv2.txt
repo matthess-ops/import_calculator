@@ -1,0 +1,11 @@
+
+databeschikbaar
+
+countrydata = alle landen info plus exchange rate
+exchangerates = alle valuata exchange rates
+
+
+cyclus 1: eerste keer bezoeker
+
+1: check als localdata beschikbaar is
+2: 

@@ -1,0 +1,66 @@
+PROBLEM: The most used import calculator doesnt use the latest conversion rates for
+calculation of the import costs. Other import calculators force the users to perform
+the conversion of the foreign currency to usd or euro themselves. This isnt really
+user friendly
+
+GOAL: Create an import calculator. That does the currency conversion of the purchased
+item from foreign currency to euro currency. And then calculates the import costs 
+
+THINGS THAT I NEED
+
+- currency conversion rates
+https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html
+
+use money.js combined with https://api.exchangeratesapi.io/latest to retrieve
+the lastest currency conversion rates
+
+geen invoerreachtne en btw tot 22 e
+vanaf 22 e tot 150 e geen invoerrechten maar wel btw
+vanaf 150 btw en invoerrechten
+
+geen inklaringkosten als bestelbedrag onder de 22 e blijft
+
+inklaringskosten van postbezorgers bepalen
+
+meeste gebruikte invoertarief van 4.2% gebruiken aka webshop tarief
+
+dit zijn de landen waar geen btw en invoerrechten betaald dienen te worden
+
+https://www.postnl.nl/ontvangen/pakket-ontvangen/pakket-uit-het-buitenland/
+* Of je btw en/of invoerrechten moet betalen, wordt bepaald op basis van de waarde exclusief verzend- en verzekeringskosten.
+**In het geval dat je btw en/of invoerrechten moet betalen, wordt het bedrag berekend op basis van de waarde inclusief verzend- en verzekeringskoste
+
+
+België
+Bulgarije
+Zuid-Cyprus
+Denemarken
+Duitsland
+Estland
+Finland
+Frankrijk
+Griekenland
+Hongarije
+Ierland
+Italië
+Kroatië
+Letland
+Litouwen
+Luxemburg
+Malta
+Nederland
+Oostenrijk
+Polen
+Portugal
+Roemenië
+Slovenië
+Slowakije
+Spanje
+Tsjechië
+Verenigd Koninkrijk
+Zweden
+Åland (Finland)
+de Canarische Eilanden (Spanje)
+de Kanaaleilanden (Verenigd Koninkrijk)
+de Franse overzeese departementen Guadeloupe, Frans Guyana, Martinique, Mayotte en Réunion
+Berg Athos (Griekenland)

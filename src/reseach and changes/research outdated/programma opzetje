@@ -1,0 +1,144 @@
+-all countries with euro als valuatie and the countries listed in research.ods, btw en inklaringvrij
+dont have import costs/taxis
+
+
+Setup of application
+
+html
+
+dropdown countryAndCurrencyDropdown = containing the countries for which there is exchange rate, import tax, countryName, currencyName and currencyCode data
+check localstorage most previous most used countries.
+
+dropdown currencyDropdown = 
+-for non euro countries use USD as preselected currency, use USD because in most foreign webshops the price is giving in usd
+-for euro countries use EU as preselected currency
+-After this use the countries currency from selected country in countryAndCurrencyDropdown
+
+Save the selected currency in currencyDropdown for countryAndCurrencyDropdown in localStorage
+and use this next time when countryAndCurrencyDropdown selection is selected
+
+text input orderAmount = in here the user enters the order price, check if the character are alfa numeric and doesnt contain any other characters than a dont
+
+text input shippingCosts = in here the user enters the shipping price, check for chars.
+
+text input importDuties = pre enter 4.2 this the most relevant for webshop buyers
+
+text input taxRate = pre enter 21 this is the most used tax rate
+
+text input clearanceCosts = pre select default price of one of the shipping companies
+
+dropDown clearancePostService = dropdown containing the most used 
+
+paragraph tag = containing the currency exchange rate to euro
+
+paragraph tag= order amount in euros
+paragraph tag= importDuties
+paragraph tag= vat value
+paragraph tag = total additional costs
+
+button = clearInput
+
+js functions
+
+https://restcountries.eu/rest/v2/all
+
+function checkFor24hours()
+    // only retrieve CurrencyExchangeRates api data once per 24 hours
+
+function getCurrencyExchangeRates()
+    -use money.js for this
+    -this is async
+    - check if not null
+    return currentexchangerates
+
+function createUpdateLocalStorageCurrencyExchangeRates()
+
+function readLocalStorageCurrencyExchangeRates() 
+
+
+
+function readImportFreeCountries() 
+    read import_free_countries.txt
+    return array of import_free_countries
+
+function readCountriesCurrencyNamesAndCodes()
+    read countries_currency_names_and_codes.txt
+    return array of countries_currency_names_and_codes
+
+
+// i do this way because it is the most flexible. Because i can use
+// differenct services for the currency exchange rates this way. Without
+// manually having to combine all the data.
+function combineData()
+    for each currency in currentexchangerates
+    match 3 letter code with 3 letter code of countries_currency_names_and_codes
+    match the countryName from countries_currency_names_and_codes with
+    import_free_countries countryName
+    
+    check if each currency in currentexchangerates has all the data if not,
+    send the administrator an email. Could be that an countries changed from currency
+
+    return combinedData
+
+function countryAndCurrencyDropdownOrder()
+    Check localstorage if these isnt a localstorage create LocalStorageCurrencyOrder.
+    If there is localStorage check if the length is the same combinedData, if not this
+    means that there are more of less currencies retrieved from the api. Thus a new 
+    localstorae needs to be made.
+
+
+    if in current session already a country is selected keep this as selection, until next change because chance is great that the user will use the same
+    selection multiple times.
+    Order the the rest of the countries/currencies according to local storage selectionAmounts (localStorageCurrencyOrder)
+    if there is not local storage create local storage
+
+function readLocalStorageCurrencyOrder()
+    read localStorageCurrencyOrder
+    return LocalStorageCurrencyOrder
+
+function createLocalStorageCurrencyOrder()
+    create localStorageCurrencyOrder
+
+function updateLocalStorageCurrencyOrder()
+    
+function createCurrencyDropdown()
+
+    1: check local storage for selected countryAndCurrencyDropdown country/currency and check
+    latest used currency in localStorageLastUsedCountryCurrencyPairs
+
+    2:else:
+
+        if euro country preselect euro
+        if usd country preselect usd
+        or vice versa
+
+    3:then comes the selected country currency
+    4:followed by the rest of the currencies
+
+    save selected country/currency pair in localStorageLastUsedCountryCurrencyPairs
+
+
+fucntion createLocalStorageLastUsedCountryCurrencyPairs()
+
+function updateLocalStorageLastUsedCountryCurrencyPairs()
+
+function readLocalStorageLastUsedCountryCurrencyPairs()
+
+function checkIfAlfaNumeric()
+    check if string contains only number and or a single dot
+
+
+function 
+
+text input clearanceCosts = pre select default price of one of the shipping companies
+
+dropDown clearancePostService = dropdown containing the most used. 
+
+paragraph tag = containing the currency exchange rate to euro
+
+paragraph tag= order amount in euros
+paragraph tag= importDuties
+paragraph tag= vat value
+paragraph tag = total additional costs
+
+button = clearInput

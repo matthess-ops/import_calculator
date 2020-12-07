@@ -1,0 +1,76 @@
+.gray-1 {
+    background-color: #EEEEEE
+    ;
+  }
+
+
+.gray-2 {
+    background-color: #DDDDDD
+
+    ;
+  }
+
+  .gray-3 {
+    background-color: #CCCCCC
+
+    ;
+  }
+
+
+  .gray-4 {
+    background-color: #BBBBBB
+
+    ;
+  }
+  .gray-5 {
+    background-color: #333333
+
+    ;
+  }
+
+
+  .border-3 {
+    border-width:3px !important;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.select2 {
+    width:100%!important; 
+}
+
+
+
+
+
+.maxTextHeight{
+    height: 28px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+
